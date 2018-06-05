@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@drawable/ico_third"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <cn.edu.xidian.fragmenttest.FloatView.FloatBackground
+        android:id="@+id/float_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_third_tv"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="85dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="您附近共有"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_third_nodenum"
+                android:text=""
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="个节点"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/start"
+            android:layout_marginTop="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:visibility="visible"
+            android:background="@drawable/button_shape"
+            android:layout_gravity="center"
+            android:text="查看附件的节点" />
+    </cn.edu.xidian.fragmenttest.FloatView.FloatBackground>
+</LinearLayout>
